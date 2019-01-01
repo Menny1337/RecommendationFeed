@@ -1,0 +1,32 @@
+div#recommendation-list-con {
+    font-family: arial, sans-serif;
+    margin: auto;
+    max-width: 1600px;
+}
+
+.recommendation-list-item {
+    position: relative;
+    width: 23.45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1% 0 0;
+}
+
+.recommendation-list-item:first-child {
+    margin-left: 1%;
+}
+
+@media (max-width: 1200px) {
+    .recommendation-list-item {
+        width: 48%;
+    }
+    .recommendation-list-item:nth-child(3) {
+        margin-left: 1%;
+    }
+}
+
+@media (max-width: 768px) {
+    .recommendation-list-item {
+        width: 98%;
+    }
+}
